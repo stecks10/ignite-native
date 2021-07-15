@@ -28,7 +28,7 @@ export function Home() {
         onChangeText={setNewSkill}
       />
       <Button onPress={handleAddNewSkill} />
-      <Text style={[styles.title, { marginVertical: 50 }]}>My Skills</Text>
+      <Text style={[styles.title, { marginVertical: 50 }]}>MySkills</Text>
       <FlatList
         data={mySkills}
         keyExtractor={(item) => item}
